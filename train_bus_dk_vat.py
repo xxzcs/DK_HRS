@@ -253,7 +253,7 @@ def main():
         torch.distributed.barrier()
 
     labeled_dataset, unlabeled_dataset, val_dataset = get_bus(
-        args, 'uda_data')
+        args, '../uda_data')
 
     if args.local_rank == 0:
         torch.distributed.barrier()

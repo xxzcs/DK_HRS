@@ -189,7 +189,7 @@ def main():
 
     if args.local_rank == 0:
         torch.distributed.barrier()
-    valdir = 'uda_data/test'
+    valdir = '../uda_data/test'
     val_dataset = datasets.ImageFolder(
         valdir, 
         transforms.Compose([
