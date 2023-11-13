@@ -8,7 +8,7 @@ Cuda 10.1 + python 3.6 + pytorch 1.4.0
 
 2、Dataset
 
-The dataset used in our paper mainly consists of 4390 ultrasound images, readers can find some samples in direcory 'uda_data'. 
+The dataset used in our paper mainly consists of 4390 ultrasound images, readers can find some samples in direcory 'uda_data/examples'. 
 These samples consist of 2804 ultrasound images, including 1739 benign and 1065 malignant ones. Please contact us by email (xiexiaozheng@ustb.edu.cn) 
 to request permission to use the dataset. 
 
